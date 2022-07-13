@@ -1,13 +1,13 @@
 package com.assurity.apiassessment;
 
 import org.testng.annotations.BeforeTest;
+import com.assurity.utilities.PropertyValue;
 
-import com.assurity.utilities.Propert_Value;
 
 public class BaseTest {
 
-	Propert_Value prop = Propert_Value.getInstance();
-	String base_URI;
+	protected PropertyValue prop = PropertyValue.getInstance();
+	protected String base_URI;
 
 	@BeforeTest
 	public void setUp() {
