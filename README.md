@@ -1,4 +1,4 @@
-# *===============API-Assesment===============*
+# *==API-Assesment==*
 This repository is a repository for assurity API assessment. 
 
 # *Pre-Request to run the automation script :*
