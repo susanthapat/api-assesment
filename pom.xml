@@ -85,6 +85,7 @@
 			<version>2.9.0</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-junit -->
 		<dependency>
 			<groupId>org.hamcrest</groupId>
@@ -98,12 +99,14 @@
 			<artifactId>allure-testng</artifactId>
 			<version>2.17.3</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14 -->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-jdk14</artifactId>
 			<version>1.7.36</version>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
 		<dependency>
 			<groupId>log4j</groupId>
@@ -143,7 +146,6 @@
 					</dependency>
 				</dependencies>
 			</plugin>
-
 		</plugins>
 	</build>
 </project>
