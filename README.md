@@ -11,12 +11,12 @@ This repository is a repository for assurity API assessment.
 
 **4.** Add "TestNG" plugin for Eclipse IDE [here](https://marketplace.eclipse.org/content/testng-eclipse).
 
-**5.** Clone automation script from the repository [git clone -b main git@github.com:susanthapat/api-assessment.git](git@github.com:susanthapat/api-assessment.git).
+**5.** Clone automation script from the repository `#RRGGBB`[git clone -b main git@github.com:susanthapat/api-assessment.git].
 
 **6.** Import automation script as Maven project in eclipse.
 
 
-##*Executing automation script*
+#*Executing automation script*
 
 
 **Method 1 :**
