@@ -1,4 +1,4 @@
-#*API-Assesment*
+# *API-Assesment*
 This repository is a repository for assurity API assessment. 
 
 # *Pre-Request to run the automation script :*
@@ -11,7 +11,7 @@ This repository is a repository for assurity API assessment.
 
 **4.** Add "TestNG" plugin for Eclipse IDE [here](https://marketplace.eclipse.org/content/testng-eclipse).
 
-**5.** Clone automation script from the repository `#RRGGBB`[git clone -b main git@github.com:susanthapat/api-assessment.git].
+**5.** Clone automation script from the repository. ( git clone -b main git@github.com:susanthapat/api-assessment.git ).
 
 **6.** Import automation script as Maven project in eclipse.
 
@@ -46,13 +46,19 @@ This repository is a repository for assurity API assessment.
 
 
 
-#*Test output :*
+# *Test output :*
 
 **Emailable Report :**
 
 **a.** Check "api-assessment/target/surefire-reports/emailable-report.html" for the emailable report.
 
 **b.** click on  "emailable-report.html" for allure report files.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Emailable Report.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Emailable Report.png">
+    <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/susanthapat/api-assessment/blob/dev/images/Emailable Report.png">
+</picture>
 
 
 **Allure Report :**
@@ -64,9 +70,21 @@ This repository is a repository for assurity API assessment.
 
 **d.** Run "allure serve target/allure-results/" command
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Allure Report.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Allure Report.png">
+    <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/susanthapat/api-assessment/blob/dev/images/Allure Report.png">
+</picture>
+
 
 
 **Logs:**
 
 The execution log generates and saves information about executions.
 a. this is available at "api-assessment/logs"
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Execution Log.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/susanthapat/api-assessment/blob/dev/images/Execution Log.png">
+    <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/susanthapat/api-assessment/blob/dev/images/Execution Log.png">
+</picture>
