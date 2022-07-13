@@ -5,17 +5,22 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import org.testng.annotations.Test;
 import com.jayway.restassured.response.ValidatableResponse;
 
-@Test
+@Test(groups="smoke",description = "This test case validate GET category request by sending category ID.")
 public class TestCategoryAPI extends BaseTest {
 
-	public void validateCategory() {
+	public void validateCategoryDetails() {
 
 		ValidatableResponse response;
-		response = given().queryParam("catalogue", "false").when().get(apiRestEndPoint).then().log().all()
-				.statusCode(200);
-		response.assertThat().body("Name", equalTo("Carbon credits"))
-				.assertThat().body("CanRelist", equalTo(true))
-				.assertThat().body("Promotions.findAll{it.Name=='Gallery'}.Description[0]", equalTo("Good position in category"));
+		String categoryId = "6327";
+		
+		// Get a response by sending a GET request for a given category ID.
+		response = given().queryParam("catalogue", "false").when()
+				.get(base_URI + "Categories/" + categoryId + "/Details.json").then().log().all().statusCode(200);
+		
+		// Validate the expected values of the response.
+		response.assertThat().body("Name", equalTo("Carbon credits")).assertThat().body("CanRelist", equalTo(true))
+				.assertThat()
+				.body("Promotions.findAll{it.Name=='Gallery'}.Description[0]", equalTo("Good position in category"));
 
 	}
 }
