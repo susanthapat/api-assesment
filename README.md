@@ -1,4 +1,4 @@
-# *API-Assesment*
+# *===============API-Assesment===============*
 This repository is a repository for assurity API assessment. 
 
 # *Pre-Request to run the automation script :*
@@ -16,7 +16,7 @@ This repository is a repository for assurity API assessment.
 **6.** Import automation script as Maven project in eclipse.
 
 
-#*Executing automation script*
+# *Executing automation script :*
 
 
 **Method 1 :**
@@ -81,6 +81,7 @@ This repository is a repository for assurity API assessment.
 **Logs:**
 
 The execution log generates and saves information about executions.
+
 a. this is available at "api-assessment/logs"
 
 <picture>
