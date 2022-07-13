@@ -1,4 +1,4 @@
-package com.assurity.listners;
+package com.assurity.listeners;
 
 import io.qameta.allure.Attachment;
 import org.apache.log4j.Logger;
@@ -54,7 +54,7 @@ public class TestListener implements ITestListener {
 
 	@Override
 	public void onTestSkipped(ITestResult iTestResult) {
-		log.info("Skipped test method " + getTestMethodName(iTestResult) + " of the test class "
+		log.info("Skipped test method " + getTestMethodName(iTestResult) + " of the test class."
 				+ getTestClassName(iTestResult) + ".");
 		log.info("");
 		log.info(
