@@ -1,9 +1,12 @@
 package com.assurity.apiassessment;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+
+import com.assurity.listeners.TestListener;
 import com.assurity.utilities.PropertyValue;
 
-
+@Listeners(TestListener.class)
 public class BaseTest {
 
 	protected PropertyValue prop = PropertyValue.getInstance();

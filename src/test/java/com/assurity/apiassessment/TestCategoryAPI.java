@@ -5,7 +5,10 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import org.testng.annotations.Test;
 import com.jayway.restassured.response.ValidatableResponse;
 
-@Test(groups="smoke",description = "This test case validate GET category request by sending category ID.")
+import groovy.lang.Category;
+
+@Test(groups="smoke",description = "This test case validates GET category request by sending category ID.")
+@Category()
 public class TestCategoryAPI extends BaseTest {
 
 	public void validateCategoryDetails() {
