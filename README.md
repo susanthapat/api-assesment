@@ -69,7 +69,7 @@ or
 
 **Allure Report :**
 
-**a.** Setup allure report in your computer [here](https://docs.qameta.io/allure/)
+**a.** Setup allure report in your computer. [here](https://docs.qameta.io/allure/)
 
 **b.** Go to the base folder.
 
