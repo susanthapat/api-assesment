@@ -69,8 +69,9 @@ or
 
 **Allure Report :**
 
-**a.**
-**.** Go to the base folder.
+**a.** Setup allure report in your computer [here](https://docs.qameta.io/allure/)
+
+**b.** Go to the base folder.
 
 **c.** Open a command prompt or terminal
 
